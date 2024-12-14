@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins'sans-serif;
+}
+body{
+    background: linear-gradient(to right,black, rgb(4, 247, 77));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: rgba(255, 255, 255, 0.111);
+    flex-direction: column;
+    display: flex;
+   
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.box input{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 220px;
+    border-radius: 5px;
+    
+}
+.box .btn{
+    background: lightblue;
+    height: 30px;
+    width: 60px;
+    border: none;
+    border-radius: 5px;
+}
+.task{
+    list-style-type: none;
+    padding: 0px;
+    margin-top:20px ;
+}
+li{
+    background: rgba(255, 255, 255, 0.111);
+    
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    align-items: center;
+    color: white;
+
+}
+.inbtn{
+    
+    background: lightblue;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
